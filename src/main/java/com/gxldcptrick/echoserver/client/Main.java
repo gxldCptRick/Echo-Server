@@ -1,5 +1,8 @@
 package com.gxldcptrick.echoserver.client;
 
+import java.io.IOException;
+import java.net.Socket;
+
 public class Main {
     /*
     Once the connection between your server and your client is established the client should do the following:
@@ -10,7 +13,15 @@ public class Main {
     5. When the server responds print “Server says:” followed by the single line string received from the server.
     Go to 1.
     */
+    private static int APP_PORT = 8080;
     public static void main(String[] args) {
-
+        boolean isActive = true;
+        try(var clientSocket = new Socket("localhost", APP_PORT)){
+            do{
+                // Do the server shit.
+            }while(isActive);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
     }
 }
