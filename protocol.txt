@@ -1,2 +1,5 @@
 Who speaks first??
-What is the terminating characters??
+Client
+How to tell when we have the message??
+    What is the terminating characters??
+    on period stop reading.
