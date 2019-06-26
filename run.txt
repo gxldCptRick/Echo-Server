@@ -1,0 +1,8 @@
+inorder to run the app you will need at least java 12
+
+cd _dir_of_app_/target/classes
+-- for the server --
+java --enable-preview com.gxldcptrick.echoserver.server.Main port="<Port you want the server to listen on>"
+
+-- for the client --
+java --enable-preview com.gxldcptrick.echoserver.client.Main port="<Port to connect to>" host="<Host IP or Domain Name to connect to>"
